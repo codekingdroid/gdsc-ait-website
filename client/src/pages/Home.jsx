@@ -5,7 +5,7 @@ class Home extends Component {
     render() {
         return (
             <div className="welcome">
-                Welcome to GDSC AIT, Pune.
+                Welcome to GDSC AIT, Pune website.
             </div>
         );
     }

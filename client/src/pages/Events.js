@@ -29,7 +29,7 @@ function Events() {
             <ul>
               <li>Prepare and share your project for collaboration</li>
               <li>
-                HContribute to the betterment of a project via pull requests
+                Contribute to the betterment of a project via pull requests
               </li>
               <li>Organize an event</li>
               <li>Mentor others</li>

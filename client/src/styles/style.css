@@ -32,7 +32,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD:client/src/style.css
   z-index: 99;
+=======
+>>>>>>> 3ba1ba7a854ad007b28425f788b34083ff683edf:client/src/styles/style.css
 }
 
 .navbar_desktop {
@@ -107,7 +110,10 @@
   height: 90vh;
   width: 100%;
   padding: 5%;
+<<<<<<< HEAD:client/src/style.css
   padding-left: 0px;
+=======
+>>>>>>> 3ba1ba7a854ad007b28425f788b34083ff683edf:client/src/styles/style.css
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -190,7 +196,7 @@ p {
 /* ##############################discription page ############################################## */
 /* ##############################discription page ############################################## */
 
-.discription_container {
+.description_container {
   height: 100vh;
   width: 100%;
   /* margin-top: 100px; */
@@ -200,8 +206,12 @@ p {
   justify-content: center;
   /* align-items: center; */
 }
+<<<<<<< HEAD:client/src/style.css
 
 .discription_container img {
+=======
+.description_container img {
+>>>>>>> 3ba1ba7a854ad007b28425f788b34083ff683edf:client/src/styles/style.css
   width: 50%;
 }
 .tecnolgyContainer {
@@ -213,7 +223,12 @@ p {
   align-items: center;
   padding: 20px;
 }
+<<<<<<< HEAD:client/src/style.css
 .discription_container p {
+=======
+.description_container p {
+  margin: 20px 0px;
+>>>>>>> 3ba1ba7a854ad007b28425f788b34083ff683edf:client/src/styles/style.css
   margin-right: 30px;
   line-height: 40px;
 }
@@ -355,12 +370,12 @@ button:hover {
 /* #################################Media Quary ############################################## */
 
 @media only screen and (max-width: 900px) {
-  .navbar_desktop {
+  /* .navbar_desktop {
     display: none;
   }
   .phone_navbar {
     display: flex;
-  }
+  } */
   .Title_heading {
     font-size: 24px;
     font-weight: 700;
@@ -402,7 +417,7 @@ button:hover {
     width: 100%;
     aspect-ratio: 1/1;
   }
-  .discription_container {
+  .description_container {
     justify-content: flex-start;
     /* align-items: center; */
   }

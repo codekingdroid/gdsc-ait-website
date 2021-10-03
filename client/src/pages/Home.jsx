@@ -1,17 +1,17 @@
-// Home page, basically we use the reusable components here in pages.
 import React, { Component } from "react";
-import image from "../images/image.png";
-import insta from "../images/insta.png";
-import movingCrossBgImage from "../images/movingCrossBgImage.png";
-import yt from "../images/yt.png";
-import Github from "../images/Github.png";
-import facebook from "../images/facebook.png";
-import linkdIn from "../images/linkedIn.png";
-import Discription from "./home_components/discription";
+import image from "../styles/images/image.png";
+import insta from "../styles/images/insta.png";
+import yt from "../styles/images/yt.png";
+import Github from "../styles/images/Github.png";
+import facebook from "../styles/images/facebook.png";
+import linkedIn from "../styles/images/linkedIn.png";
+import Description from "./home_components/description";
 import Social from "./home_components/social";
+
+
 class Home extends Component {
   state = {
-    dis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in",
     socialMedia: [
       { url: "https://www.instagram.com/gdsc_aitpune/", id: "1", src: insta },
       {
@@ -33,13 +33,10 @@ class Home extends Component {
     return (
       <div className="frontPage">
         <div className="welcome">
-          {/* <img src={bg_svg} alt="" className='bg_svg' /> */}
-          {/* <img src={movingCrossBgImage} alt="" className="rotate" />
-        <img src={movingCrossBgImage} alt="" className="rotate2" /> */}
           <div className="content">
             <h1 className="Title_heading">Lorem ipsum </h1>
             <br />
-            <p>{this.state.dis}</p>
+            <p>{this.state.description}</p>
             <button className="Member_button">Join as member</button>
             <button
               className="Discord_button"
@@ -66,8 +63,9 @@ class Home extends Component {
             <img src={image} alt="fdsfsdf" className="svg" />
           </div>
         </div>
-        <div className="discription_container">
-          <Discription />
+
+        <div className="description_container">
+          <Description />
         </div>
         {/* <div className="SocialMediaContainer">
           <Social />
